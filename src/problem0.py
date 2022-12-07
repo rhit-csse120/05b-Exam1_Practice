@@ -79,7 +79,7 @@ def sum_of_digits(number):
     """
     # -------------------------------------------------------------------------
     # Students:
-    #   Do NOT touch the above  sum_of_digits function - it has no _TODO_.
+    #   Do NOT touch the above  sum_of_digits  function - it has no _TODO_.
     #   Do NOT copy code from this function.
     #
     # Instead, ** CALL ** this function as needed in the problems below.
