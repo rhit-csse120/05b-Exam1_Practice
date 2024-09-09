@@ -1,11 +1,18 @@
 """
 PRACTICE Exam 1, problem 5.
 
-Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
-         Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
-         Amanda Stouder, Curt Clifton, Valerie Galluzzi, their colleagues and
+Authors: David Mutchler, Rachel Krohn, Dave Fisher, Shawn Bohner, Sriram Mohan,
+         Amanda Stouder, Vibha Alangar, Mark Hays, Dave Henthorn, Matt Boutell,
+         Scott McClellan, Yiji Zhang, Mohammed Noureddine, Steve Chenoweth,
+         Claude Anderson, Michael Wollowski, Chandan Rupakheti,
+         Derek Whitley, Curt Clifton, Valerie Galluzzi, their colleagues and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+
+"""
+Academic Integrity: I got help on this module from:
+         PUT_HERE_THE_NAMES_OF_PEOPLE_WHO_HELPED_YOU_ON_THIS_MODULE_(IF_ANY).
+"""  # TODO: If you got help from anyone on this module, list their names here.
 
 ###############################################################################
 # Students:
@@ -30,7 +37,7 @@ import rosegraphics as rg
 
 
 def main():
-    """ Calls the   TEST   functions in this module. """
+    """Calls the   TEST   functions in this module."""
     print("-----------------------------------------------")
     print("Un-comment each of the following TEST functions")
     print("as you implement the functions that they test.")
@@ -41,7 +48,7 @@ def main():
 
 
 def run_test_problem5a():
-    """ Tests the   problem5a   function. """
+    """Tests the   problem5a   function."""
     # -------------------------------------------------------------------------
     # TODO: 2. Implement this TEST function.
     #   It TESTS the  problem5a  function defined below.
@@ -167,7 +174,7 @@ def problem5a(window, point, n):
 
 
 def run_test_problem5b():
-    """ Tests the   problem5b   function. """
+    """Tests the   problem5b   function."""
     print()
     print("--------------------------------------------------")
     print("Testing the   problem5b  function:")

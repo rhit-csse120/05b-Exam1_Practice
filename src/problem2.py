@@ -1,11 +1,18 @@
 """
 PRACTICE Exam 1, problem 2.
 
-Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
-         Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
-         Amanda Stouder, Curt Clifton, Valerie Galluzzi, their colleagues and
+Authors: David Mutchler, Rachel Krohn, Dave Fisher, Shawn Bohner, Sriram Mohan,
+         Amanda Stouder, Vibha Alangar, Mark Hays, Dave Henthorn, Matt Boutell,
+         Scott McClellan, Yiji Zhang, Mohammed Noureddine, Steve Chenoweth,
+         Claude Anderson, Michael Wollowski, Chandan Rupakheti,
+         Derek Whitley, Curt Clifton, Valerie Galluzzi, their colleagues and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+
+"""
+Academic Integrity: I got help on this module from:
+         PUT_HERE_THE_NAMES_OF_PEOPLE_WHO_HELPED_YOU_ON_THIS_MODULE_(IF_ANY).
+"""  # TODO: If you got help from anyone on this module, list their names here.
 
 ###############################################################################
 # Students:
@@ -30,7 +37,7 @@ import rosegraphics as rg
 
 
 def main():
-    """ Calls the   TEST   functions in this module. """
+    """Calls the   TEST   functions in this module."""
     print("-----------------------------------------------")
     print("Un-comment each of the following TEST functions")
     print("as you implement the functions that they test.")
@@ -41,7 +48,7 @@ def main():
 
 
 def run_test_problem2a():
-    """ Tests the   problem2a  function. """
+    """Tests the   problem2a  function."""
     print()
     print("--------------------------------------------------")
     print("Testing the  problem2a  function:")
@@ -83,7 +90,7 @@ def problem2a(circle, rectangle, window):
     """
     See   problem2a_picture.pdf   in this project for pictures
     that may help you better understand the following specification:
-    
+
     What comes in:
       -- An rg.Circle.
       -- An rg.Rectangle.
@@ -122,7 +129,7 @@ def problem2a(circle, rectangle, window):
 
 
 def run_test_problem2b():
-    """ Tests the  problem2b   function. """
+    """Tests the  problem2b   function."""
     print()
     print("--------------------------------------------------")
     print("Testing the   problem2b   function:")
@@ -157,7 +164,7 @@ def problem2b(rect, n, delta, win):
     """
     See   problem2b_picture.pdf   in this project for pictures
     that may help you better understand the following specification:
-    
+
     What comes in:
       -- An rg.Rectangle.
       -- A positive integer n.

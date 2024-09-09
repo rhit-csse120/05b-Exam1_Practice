@@ -1,11 +1,18 @@
 """
 PRACTICE Exam 1, problem 1.
 
-Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
-         Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
-         Amanda Stouder, Curt Clifton, Valerie Galluzzi, their colleagues and
+Authors: David Mutchler, Rachel Krohn, Dave Fisher, Shawn Bohner, Sriram Mohan,
+         Amanda Stouder, Vibha Alangar, Mark Hays, Dave Henthorn, Matt Boutell,
+         Scott McClellan, Yiji Zhang, Mohammed Noureddine, Steve Chenoweth,
+         Claude Anderson, Michael Wollowski, Chandan Rupakheti,
+         Derek Whitley, Curt Clifton, Valerie Galluzzi, their colleagues and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+
+"""
+Academic Integrity: I got help on this module from:
+         PUT_HERE_THE_NAMES_OF_PEOPLE_WHO_HELPED_YOU_ON_THIS_MODULE_(IF_ANY).
+"""  # TODO: If you got help from anyone on this module, list their names here.
 
 ###############################################################################
 # Students:
@@ -31,7 +38,7 @@ import time
 
 
 def main():
-    """ Calls the   TEST   functions in this module. """
+    """Calls the   TEST   functions in this module."""
     print("-----------------------------------------------")
     print("Un-comment each of the following TEST functions")
     print("as you implement the functions that they test.")
@@ -51,6 +58,7 @@ def main():
 #   You should  ** CALL **  those functions as needed in implementing the
 #   other functions.  After you have READ this, change its _TODO_ to DONE.
 ###############################################################################
+
 
 def is_prime(n):
     """
@@ -109,7 +117,7 @@ def sum_of_digits(number):
 
 
 def run_test_problem1a():
-    """ Tests the   problem1a   function. """
+    """Tests the   problem1a   function."""
     # -------------------------------------------------------------------------
     # TODO: 3. Implement this TEST function.
     #   It TESTS the  problem1a  function defined below.
@@ -129,36 +137,31 @@ def run_test_problem1a():
 
     # Test 1:
     expected = -1.601215  # This is APPROXIMATELY the correct answer.
-    print_expected_result_of_test([3, 5], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([3, 5], expected, test_results, format_string)
     actual = problem1a(3, 5)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=6)
 
     # Test 2:
     expected = 0.06332106  # This is APPROXIMATELY the correct answer.
-    print_expected_result_of_test([2, -3], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([2, -3], expected, test_results, format_string)
     actual = problem1a(2, -3)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=8)
 
     # Test 3:
     expected = 1.32357900  # This is APPROXIMATELY the correct answer.
-    print_expected_result_of_test([30, 101], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([30, 101], expected, test_results, format_string)
     actual = problem1a(30, 101)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=8)
 
     # Test 4:
     expected = 0.7311900132  # This is APPROXIMATELY the correct answer.
-    print_expected_result_of_test([9999, 9999], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([9999, 9999], expected, test_results, format_string)
     actual = problem1a(9999, 9999)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=9)
 
     # Test 5:
     expected = 1.27818068564  # This is APPROXIMATELY the correct answer.
-    print_expected_result_of_test([30, 100], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([30, 100], expected, test_results, format_string)
     actual = problem1a(30, 100)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results, precision=11)
 
@@ -205,7 +208,7 @@ def problem1a(m, n):
 
 
 def run_test_problem1b():
-    """ Tests the   problem1b   function. """
+    """Tests the   problem1b   function."""
     # -------------------------------------------------------------------------
     # TODO: 5. Implement this TEST function.
     #   It TESTS the  problem1b  function defined below.
@@ -225,15 +228,13 @@ def run_test_problem1b():
 
     # Test 1:
     expected = 5
-    print_expected_result_of_test([3, 5], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([3, 5], expected, test_results, format_string)
     actual = problem1b(3, 5)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 2:
     expected = 1
-    print_expected_result_of_test([2, 1], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([2, 1], expected, test_results, format_string)
     actual = problem1b(2, 1)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
@@ -241,36 +242,31 @@ def run_test_problem1b():
 
     # Test 3:
     expected = 44
-    print_expected_result_of_test([5, 40], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([5, 40], expected, test_results, format_string)
     actual = problem1b(5, 40)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 4:
     expected = 44
-    print_expected_result_of_test([5, 42], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([5, 42], expected, test_results, format_string)
     actual = problem1b(5, 42)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 5:
     expected = 45
-    print_expected_result_of_test([5, 43], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([5, 43], expected, test_results, format_string)
     actual = problem1b(5, 43)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 6:
     expected = 45
-    print_expected_result_of_test([5, 44], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([5, 44], expected, test_results, format_string)
     actual = problem1b(5, 44)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 7:
     expected = 46
-    print_expected_result_of_test([5, 45], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([5, 45], expected, test_results, format_string)
     actual = problem1b(5, 45)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
@@ -305,7 +301,7 @@ def problem1b(m, f):
            since there is one prime (namely, 2) between 2 and 2.
       -- If m is 5 and f is 40, the correct answer is 44,
            since there are 44 primes between 5 and 200.
-     """
+    """
     # -------------------------------------------------------------------------
     # TODO: 6. Implement and test this function.
     #   Note that you should write its TEST function first (above).
@@ -321,7 +317,7 @@ def problem1b(m, f):
 
 
 def run_test_problem1c():
-    """ Tests the   problem1c   function. """
+    """Tests the   problem1c   function."""
     print()
     print("--------------------------------------------------")
     print("Testing the   problem1c   function:")
@@ -362,22 +358,19 @@ def run_test_problem1c():
 
     # Test 6:
     expected = 19416
-    print_expected_result_of_test([10007], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([10007], expected, test_results, format_string)
     actual = problem1c(10007)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 7:
     expected = 19416
-    print_expected_result_of_test([10008], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([10008], expected, test_results, format_string)
     actual = problem1c(10008)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 8:
     expected = 19200
-    print_expected_result_of_test([10009], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([10009], expected, test_results, format_string)
     actual = problem1c(10009)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
@@ -429,17 +422,19 @@ def problem1c(n):
 # Do NOT change it.  You do NOT have to do anything with it.
 ###############################################################################
 
-def print_expected_result_of_test(arguments, expected,
-                                  test_results, format_string, suffix=""):
-    testing_helper.print_expected_result_of_test(arguments, expected,
-                                                 test_results, format_string,
-                                                 suffix)
+
+def print_expected_result_of_test(
+    arguments, expected, test_results, format_string, suffix=""
+):
+    testing_helper.print_expected_result_of_test(
+        arguments, expected, test_results, format_string, suffix
+    )
 
 
-def print_actual_result_of_test(expected, actual, test_results,
-                                precision=None):
-    testing_helper.print_actual_result_of_test(expected, actual,
-                                               test_results, precision)
+def print_actual_result_of_test(expected, actual, test_results, precision=None):
+    testing_helper.print_actual_result_of_test(
+        expected, actual, test_results, precision
+    )
 
 
 def print_summary_of_test_results(test_results):

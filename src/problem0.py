@@ -8,11 +8,18 @@ These problems illustrate concepts that previous problems have not emphasized:
   -- is_prime (Problem 0b)
   -- animation (Problem 0c)
 
-Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
-         Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
-         Amanda Stouder, Curt Clifton, Valerie Galluzzi, their colleagues and
+Authors: David Mutchler, Rachel Krohn, Dave Fisher, Shawn Bohner, Sriram Mohan,
+         Amanda Stouder, Vibha Alangar, Mark Hays, Dave Henthorn, Matt Boutell,
+         Scott McClellan, Yiji Zhang, Mohammed Noureddine, Steve Chenoweth,
+         Claude Anderson, Michael Wollowski, Chandan Rupakheti,
+         Derek Whitley, Curt Clifton, Valerie Galluzzi, their colleagues and
          PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+
+"""
+Academic Integrity: I got help on this module from:
+         PUT_HERE_THE_NAMES_OF_PEOPLE_WHO_HELPED_YOU_ON_THIS_MODULE_(IF_ANY).
+"""  # TODO: If you got help from anyone on this module, list their names here.
 
 import rosegraphics as rg
 import testing_helper
@@ -20,7 +27,7 @@ import time
 
 
 def main():
-    """ Calls the   TEST   functions in this module. """
+    """Calls the   TEST   functions in this module."""
     print("-----------------------------------------------")
     print("Un-comment each of the following TEST functions")
     print("as you implement the functions that they test.")
@@ -40,6 +47,7 @@ def main():
 #   You should  ** CALL **  those functions as needed in implementing the
 #   other functions.  After you have READ this, change its _TODO_ to DONE.
 ###############################################################################
+
 
 def is_prime(n):
     """
@@ -98,7 +106,7 @@ def sum_of_digits(number):
 
 
 def run_test_problem0a():
-    """ Tests the   problem0a   function. """
+    """Tests the   problem0a   function."""
     print()
     print("--------------------------------------------------")
     print("Testing the   problem0a   function:")
@@ -109,8 +117,7 @@ def run_test_problem0a():
 
     # Test 1:
     expected = False
-    print_expected_result_of_test([83135], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([83135], expected, test_results, format_string)
     actual = problem0a(83135)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
     if actual == "False":
@@ -138,22 +145,19 @@ def run_test_problem0a():
 
     # Test 4:
     expected = False
-    print_expected_result_of_test([803], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([803], expected, test_results, format_string)
     actual = problem0a(803)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 5:
     expected = False
-    print_expected_result_of_test([830931], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([830931], expected, test_results, format_string)
     actual = problem0a(830931)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 6:
     expected = True
-    print_expected_result_of_test([730931], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([730931], expected, test_results, format_string)
     actual = problem0a(730931)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
@@ -171,36 +175,33 @@ def run_test_problem0a():
 
     # Test 9:
     expected = False
-    print_expected_result_of_test([9021], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([9021], expected, test_results, format_string)
     actual = problem0a(9021)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 10:
     expected = True
-    print_expected_result_of_test([9022], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([9022], expected, test_results, format_string)
     actual = problem0a(9022)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 11:
     expected = True
-    print_expected_result_of_test([441399999], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([441399999], expected, test_results, format_string)
     actual = problem0a(441399999)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 12:
     expected = True
-    print_expected_result_of_test([1111111111111], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test(
+        [1111111111111], expected, test_results, format_string
+    )
     actual = problem0a(1111111111111)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 13:
     expected = True
-    print_expected_result_of_test([69], expected, test_results,
-                                  format_string)
+    print_expected_result_of_test([69], expected, test_results, format_string)
     actual = problem0a(69)  # Run the code to be tested
     print_actual_result_of_test(expected, actual, test_results)
 
@@ -245,7 +246,7 @@ def problem0a(n):
 
 
 def run_test_problem0b():
-    """ Tests the   problem0b   function. """
+    """Tests the   problem0b   function."""
     print()
     print("--------------------------------------------------")
     print("Testing the   problem0b   function:")
@@ -363,7 +364,7 @@ def problem0b(n):
            since there is one prime (namely, 2) between 2 and 2.
       -- If n is 200, the correct answer is 46,
            since there are 46 primes between 2 and 200.
-     """
+    """
     # -------------------------------------------------------------------------
     # TODO: 4. Implement and test this function.
     #          Tests have been written for you (above).
@@ -382,7 +383,7 @@ def problem0b(n):
 
 
 def run_test_problem0c():
-    """ Tests the   problem0c  function. """
+    """Tests the   problem0c  function."""
     print()
     print("--------------------------------------------------")
     print("Testing the  problem0c  function:")
@@ -419,7 +420,7 @@ def problem0c(circle, n, window):
     """
     See   problem0c_picture.pdf   in this project for pictures
     that may help you better understand the following specification:
-    
+
     What comes in:
       -- An rg.Circle.
       -- A positive integer n.
@@ -452,17 +453,19 @@ def problem0c(circle, n, window):
 # Do NOT change it.  You do NOT have to do anything with it.
 ###############################################################################
 
-def print_expected_result_of_test(arguments, expected,
-                                  test_results, format_string, suffix=""):
-    testing_helper.print_expected_result_of_test(arguments, expected,
-                                                 test_results, format_string,
-                                                 suffix)
+
+def print_expected_result_of_test(
+    arguments, expected, test_results, format_string, suffix=""
+):
+    testing_helper.print_expected_result_of_test(
+        arguments, expected, test_results, format_string, suffix
+    )
 
 
-def print_actual_result_of_test(expected, actual, test_results,
-                                precision=None):
-    testing_helper.print_actual_result_of_test(expected, actual,
-                                               test_results, precision)
+def print_actual_result_of_test(expected, actual, test_results, precision=None):
+    testing_helper.print_actual_result_of_test(
+        expected, actual, test_results, precision
+    )
 
 
 def print_summary_of_test_results(test_results):
