@@ -227,7 +227,7 @@ def problem6(r, s, t):
 
 
 def print_expected_result_of_test(
-        arguments, expected, test_results, format_string, suffix=""
+    arguments, expected, test_results, format_string, suffix=""
 ):
     testing_helper.print_expected_result_of_test(
         arguments, expected, test_results, format_string, suffix
