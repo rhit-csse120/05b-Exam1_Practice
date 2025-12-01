@@ -46,6 +46,7 @@ def main():
 
     # run_test_problem3a()
     # run_test_problem3b()
+    prin
 
 
 def run_test_problem3a():
